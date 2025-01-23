@@ -1,0 +1,64 @@
+name: bitvault
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  lottie: ^3.3.0
+  bip39: ^1.0.6
+  http: ^1.2.2
+  provider: ^6.1.2
+  supabase_flutter: ^2.8.2
+  flutter_svg: ^2.0.16
+  share_plus: ^10.1.3
+  pretty_qr_code: ^3.3.0
+  mobile_scanner: ^5.2.3
+  timeago: ^3.7.0
+  app_links: ^6.3.3
+  local_auth: ^2.3.0
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # إضافة ملف الـ Lottie
+  assets:
+    - assets/image/Animation-1731274801114.json
+    - assets/image/download-svgrepo-com.svg
+    - assets/image/setting-line-svgrepo-com (1).svg
+    - assets/image/wallet-alt-svgrepo-com.svg
+    - assets/image/bitcoin_logo.png
+    - assets/image/qr-reader-svgrepo-com.svg
+    - assets/image/bitcoin-910307_1280.png
+    - assets/image/danger-circle-svgrepo-com.svg
+    
+
+  # إضافة الخطوط
+  fonts:
+    - family: SpaceGrotesk
+      fonts:
+        - asset: assets/fonts/SpaceGrotesk-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/SpaceGrotesk-Light.ttf
+          weight: 300
+        - asset: assets/fonts/SpaceGrotesk-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/SpaceGrotesk-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/SpaceGrotesk-SemiBold.ttf
+          weight: 600
