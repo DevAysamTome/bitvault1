@@ -74,6 +74,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
+      debugShowCheckedModeBanner: false,
       home: const SplashScreen(),
     );
   }
@@ -119,7 +120,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 }
 
-// 
+//
 class WalletScreen extends StatefulWidget {
   const WalletScreen({super.key});
 
@@ -127,7 +128,8 @@ class WalletScreen extends StatefulWidget {
   State<WalletScreen> createState() => _WalletScreenState();
 }
 
-class _WalletScreenState extends State<WalletScreen> with WidgetsBindingObserver {
+class _WalletScreenState extends State<WalletScreen>
+    with WidgetsBindingObserver {
   @override
   void initState() {
     super.initState();

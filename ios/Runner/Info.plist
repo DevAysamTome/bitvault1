@@ -51,8 +51,6 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 <string>نحتاج للوصول إلى الكاميرا لتتمكن من التقاط الصور.</string>
-<key>NSUserTrackingUsageDescription</key>
-<string>نحتاج لإرسال الإشعارات لتحسين تجربتك.</string>
 <key>FirebaseAppDelegateProxyEnabled</key>
 <false/>
 <key>UIBackgroundModes</key>
